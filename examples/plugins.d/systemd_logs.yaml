@@ -16,7 +16,7 @@ spec:
     value: /tmp/results
   - name: CHROOT_DIR
     value: /node
-  image: gcr.io/heptio-images/sonobuoy-plugin-systemd-logs:latest
+  image: registry.cn-hangzhou.aliyuncs.com/heptio/sonobuoy-plugin-systemd-logs:latest
   imagePullPolicy: Always
   name: sonobuoy-systemd-logs-config
   securityContext:

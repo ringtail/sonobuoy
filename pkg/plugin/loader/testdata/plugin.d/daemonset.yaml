@@ -3,7 +3,7 @@ sonobuoy-config:
   plugin-name: test-daemon-set-plugin
   result-type: test-daemon-set-plugin
 spec:
-  image: gcr.io/heptio-images/heptio-e2e:master
+  image: registry.cn-hangzhou.aliyuncs.com/heptio/heptio-e2e:master
   imagePullPolicy: Always
   name: heptio-e2e
   volumeMounts:
